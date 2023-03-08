@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; 
+  max-width: 100%;
+  list-style: none;
+
+ 
+} 
+body {
+    box-sizing: border-box;
+    background-color: rgba(239, 250, 250, 0.915);
+    font-family: Poppins;
+    margin: auto;
+    padding: 5px;
+    line-height: 1;
+    display: inline-block;
+}
+
+
+ 
+header {
+  background-color: #def0f8;
+  padding: 20px 0;
+}
+
+ h1{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: bold;
+ }
+
+
+.ferdacop {
+  width: 20%;
+  margin-left: 2em;
+  border-radius: 2px;
+  border: 2px solid;
+}
+
+
+.title {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+} 
+
+span {
+  font-size: 1rem;
+  text-align: left;
+  font-family: Poppins;
+  margin-left: 2em;
+}
+
+
+nav{
+  position: absolute;
+  top: 100px;
+  right: 1em;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+
+h3 {
+  display: block;
+  font-size: 2em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.sobremi{
+  font-size:large;
+  margin: 0 0 1em;
+  text-align:center;
+  padding: 1em;
+  border: 3px solid powderblue;
+}
+
+
+.datospersonales{
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: large;
+}
+
+.items{
+  line-height: 2.5;
+  font-weight: bold;
+}
+
+.items:before{
+  content:"★"
+}
+
+.skills{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.skills li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.skills li:hover{
+  border-color:#c78c19;
+}
+
+.skills li:active{
+  border-color:#088c19;
+}
+
+.skills h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.skills li:hover h2{
+  font-size: 33px;
+}
+
+.skills-descripcion{
+  font-size: 15px;
+}
+
+.producto-precio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:10px;
+}
+
+footer{
+  text-align: center;
+  padding:40px;
+}
+
+.copyright{
+  color:#0c0606;
+  font-size: 13px;
+  margin:20px;
+  font-weight: bold;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin:20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: orange;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor:pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+  
